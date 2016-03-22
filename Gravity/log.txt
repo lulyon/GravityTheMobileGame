@@ -1,0 +1,254 @@
+--------- beginning of /dev/log/main
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  41*C (41984)
+D/dalvikvm( 6143): WAIT_FOR_CONCURRENT_GC blocked 0ms
+D/dalvikvm( 6143): GC_EXPLICIT freed 322K, 7% free 8318K/8903K, paused 11ms+3ms, total 45ms
+D/StatusBar.NetworkController(  594): refreshViews: Data not connected!! Set no data type icon
+D/StatusBar.NetworkController(  594): refreshViews connected={ wifi } level=5 combinedSignalIconId=0x7f02023f/com.android.systemui:drawable/stat_sys_wifi_signal_4_fully combinedActivityIconId=0x7f020235 mobileLabel=中国电信 wifiLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX combinedLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX mAirplaneMode=false mDataActivity=4 mPhoneSignalIconId=0x7f020205 mDataDirectionIconId=0x0 mDataSignalIconId=0x7f020205 mDataTypeIconId=0x0 mNoSimIconId=0x0 mWifiIconId=0x7f02023f mBluetoothTetherIconId=0x1080565
+D/StatusBar.NetworkController(  594): twfx refreshViews mPhoneSignalIconId 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshViews refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster xx 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx isGsm mSignalStrength   isnull? false
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 0=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 1=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators visible=true
+--------- beginning of /dev/log/system
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+I/CTSignalCluster(  594): setMobileDataIndicators simServiceState=0 home 46003  46003  EvDo-rev.A CSS not supported 2 13844 mDataState=0 RoamInd=1 DefRoamInd=1 EmergOnly=false
+I/CTSignalCluster(  594): setMobileDataIndicators isRoam=false
+I/CTSignalCluster(  594): setMobileDataIndicators dataConnect=false
+I/CTSignalCluster(  594): setMobileDataIndicators isGsm = false
+I/CTSignalCluster(  594): voice radio technology is0 mIsGsm = false isRoam= false
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): setMobileDataIndicators mMobileStrengthId[0]=com.android.systemui:drawable/stat_sys_signal_5_1x mMobileStrengthId[1]=2130838013
+I/CTSignalCluster(  594): getAcitivyTypeIconId type=2 inout=0
+I/CTSignalCluster(  594): SetMobileDataIndicators MNoSimIconVisiable false
+D/StatusBar.NetworkController(  594): changing data overlay icon id to 2130838069
+D/StatusBar.NetworkController(  594): updateCarrierText() NetworkControllorREADY
+D/StatusBar.NetworkController(  594): refreshViews: CarrierLabel=中国电信
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  41*C (41984)
+D/AppsCustomizePagedView(31990): onClick: v = com.android.launcher2.PagedViewIcon@418b2550, v.getTag() = ApplicationInfo(title=Gravity,unread = 0)
+D/Launcher(31990): startActivitySafely: intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.shupeifei.www/org.cocos2dx.cpp.AppActivity } tag = ApplicationInfo(title=Gravity,unread = 0)
+I/ActivityManager(  479): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.shupeifei.www/org.cocos2dx.cpp.AppActivity u=0} from pid 31990
+D/PowerManager(  479): ActivityManager-Launch [acquire]
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+I/Launcher(31990): doInBackground(Params... params) calledcom.shupeifei.wwworg.cocos2dx.cpp.AppActivity
+D/Launcher(31990): (Launcher)onPause.
+D/PagedView(31990): setCurrentPage: currentPage = 4,mCurrentPage = 4,mScrollX = 1364,this = com.android.launcher2.Workspace@41386aa0
+D/KubePluginView(31990): ****************KubePluginView onPause..
+I/ActivityManager(  479): Start proc com.shupeifei.www for activity com.shupeifei.www/org.cocos2dx.cpp.AppActivity: pid=6743 uid=10082 gids={3003, 1028}
+I/Launcher(31990): UpdateTask.mLockNew.componentName=ComponentInfo{com.shupeifei.www/org.cocos2dx.cpp.AppActivity}
+I/Launcher(31990): onPostExecute called
+I/Launcher.Utilities(31990): requestStatusbarTransparent transparent false
+D/PhoneStatusBar(  594): mBroadcastReceiver action = android.intent.action.STATUSBAR_BG_CHANGE
+D/twfx    (  594): STATUSBAR_BG_CHANGE flag=2 trans=false
+D/twfx    (  594): setStatusbarBackgroundTrans trans=false flag=2
+E/Trace   ( 6743): error opening trace file: No such file or directory (2)
+D/StatusBar.NetworkController(  594): refreshViews: Data not connected!! Set no data type icon
+D/StatusBar.NetworkController(  594): refreshViews connected={ wifi } level=5 combinedSignalIconId=0x7f02023f/com.android.systemui:drawable/stat_sys_wifi_signal_4_fully combinedActivityIconId=0x0 mobileLabel=中国电信 wifiLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX combinedLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX mAirplaneMode=false mDataActivity=4 mPhoneSignalIconId=0x7f020205 mDataDirectionIconId=0x0 mDataSignalIconId=0x7f020205 mDataTypeIconId=0x0 mNoSimIconId=0x0 mWifiIconId=0x7f02023f mBluetoothTetherIconId=0x1080565
+D/StatusBar.NetworkController(  594): twfx refreshViews mPhoneSignalIconId 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshViews refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster xx 0=2130838021 1=2130838021
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=0
+D/StatusBar.NetworkController(  594): twfx isGsm mSignalStrength   isnull? false
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 0=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 1=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators visible=true
+I/CTSignalCluster(  594): setMobileDataIndicators simServiceState=0 home 46003  46003  EvDo-rev.A CSS not supported 2 13844 mDataState=0 RoamInd=1 DefRoamInd=1 EmergOnly=false
+I/CTSignalCluster(  594): setMobileDataIndicators isRoam=false
+I/CTSignalCluster(  594): setMobileDataIndicators dataConnect=false
+I/CTSignalCluster(  594): setMobileDataIndicators isGsm = false
+I/CTSignalCluster(  594): voice radio technology is0 mIsGsm = false isRoam= false
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): setMobileDataIndicators mMobileStrengthId[0]=com.android.systemui:drawable/stat_sys_signal_5_1x mMobileStrengthId[1]=2130838013
+I/CTSignalCluster(  594): getAcitivyTypeIconId type=2 inout=0
+I/CTSignalCluster(  594): SetMobileDataIndicators MNoSimIconVisiable false
+D/StatusBar.NetworkController(  594): changing data overlay icon id to 0
+D/StatusBar.NetworkController(  594): updateCarrierText() NetworkControllorREADY
+D/StatusBar.NetworkController(  594): refreshViews: CarrierLabel=中国电信
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=0
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=0
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=0
+D/Cocos2dxActivity( 6743): model=HS-E956Q
+D/Cocos2dxActivity( 6743): product=E956Q
+D/Cocos2dxActivity( 6743): isEmulator=false
+W/dalvikvm( 6743): threadid=1: thread exiting with uncaught exception (group=0x40b7a438)
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  41*C (41984)
+E/AndroidRuntime( 6743): FATAL EXCEPTION: main
+E/AndroidRuntime( 6743): java.lang.UnsatisfiedLinkError: Couldn't load cocos2dcpp: findLibrary returned null
+E/AndroidRuntime( 6743): 	at java.lang.Runtime.loadLibrary(Runtime.java:365)
+E/AndroidRuntime( 6743): 	at java.lang.System.loadLibrary(System.java:535)
+E/AndroidRuntime( 6743): 	at org.cocos2dx.lib.Cocos2dxHelper.init(Cocos2dxHelper.java:94)
+E/AndroidRuntime( 6743): 	at org.cocos2dx.lib.Cocos2dxActivity.onCreate(Cocos2dxActivity.java:84)
+E/AndroidRuntime( 6743): 	at android.app.Activity.performCreate(Activity.java:5008)
+E/AndroidRuntime( 6743): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+E/AndroidRuntime( 6743): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2031)
+E/AndroidRuntime( 6743): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2092)
+E/AndroidRuntime( 6743): 	at android.app.ActivityThread.access$600(ActivityThread.java:133)
+E/AndroidRuntime( 6743): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1203)
+E/AndroidRuntime( 6743): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 6743): 	at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime( 6743): 	at android.app.ActivityThread.main(ActivityThread.java:4794)
+E/AndroidRuntime( 6743): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 6743): 	at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime( 6743): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+E/AndroidRuntime( 6743): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+E/AndroidRuntime( 6743): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  479): Notify an ApplicationCrash
+W/ActivityManager(  479):   Force finishing activity com.shupeifei.www/org.cocos2dx.cpp.AppActivity
+D/PowerManager(  479): ActivityManager-Launch [acquire]
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+I/Adreno200-EGL(  658): <qeglDrvAPI_eglInitialize:299>: EGL 1.4 QUALCOMM build: Nondeterministic AU_msm8625_REFS/TAGS/JB_REL_RB5_QRD_D20130221_CL3357771_release_AU (CL3357771)
+I/Adreno200-EGL(  658): Build Date: 02/22/13 Fri
+I/Adreno200-EGL(  658): Local Branch: 
+I/Adreno200-EGL(  658): Remote Branch: m/refs/tags/jb_rel_rb5_qrd_D20130221
+I/Adreno200-EGL(  658): Local Patches: NONE
+I/Adreno200-EGL(  658): Reconstruct Branch: NOTHING
+D/Rajawali(  658): Creating OpenGL ES 2.0 context
+E/ThermalDaemon( 1000): CPU[1] offline
+W/ActivityManager(  479): Activity pause timeout for ActivityRecord{41db2dd0 com.shupeifei.www/org.cocos2dx.cpp.AppActivity}
+D/Launcher(31990): (Launcher)onResume: mRestoring = false,mOnResumeNeedsLoad = false,mFocused = false,mAlreadyOnHome = false
+D/AppsCustomizeTabHost(31990): onResume: visibility = 0
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+D/Launcher.Workspace(31990): (Workspace)buildPageHardwareLayers
+D/PowerManager(  479): ActivityManager-Launch [release]
+D/StateMachine(  479): handleMessage: E msg.what=131155
+D/StateMachine(  479): processMsg: ConnectedState
+D/WifiStateMachine(  479): ConnectedState{ what=131155 when=-4ms arg1=408 }
+D/StateMachine(  479): processMsg: L2ConnectedState
+D/WifiStateMachine(  479): L2ConnectedState{ what=131155 when=-5ms arg1=408 }
+D/wpa_supplicant(16787): wpa_s 0x4213c5a0 cmd SIGNAL_POLL
+D/wpa_supplicant(16787): nl80211: survey data missing!
+D/StateMachine(  479): handleMessage: X
+W/Adreno200-ES20(  658): <qgl2DrvAPI_glRenderbufferStorage:636>: GL_INVALID_VALUE
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  41*C (41984)
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/ThermalDaemon( 1000): CPU[1] offline
+I/BusOnlineAppService( 6661): BusOnlineAppService onCreate
+E/memalloc(  155): ION_IOC_ALLOC failed with error - Out of memory
+W/memalloc(  155): Falling back to system heap
+E/MediaPlayer( 6661): Uri is  content://settings/system/notification_sound
+I/ActivityManager(  479): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=6774 uid=10018 gids={1015, 1023, 1024, 1028, 2001, 3003, 3007}
+E/Trace   ( 6774): error opening trace file: No such file or directory (2)
+I/Launcher.Utilities(31990): requestStatusbarTransparent transparent true
+D/PhoneStatusBar(  594): mBroadcastReceiver action = android.intent.action.STATUSBAR_BG_CHANGE
+D/twfx    (  594): STATUSBAR_BG_CHANGE flag=2 trans=true
+D/twfx    (  594): setStatusbarBackgroundTrans trans=true flag=2
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@413a6cd0 attribute=null
+I/ActivityManager(  479): Process com.shupeifei.www (pid 6743) has died.
+I/ActivityThread( 6774): Pub media: com.android.providers.media.MediaProvider
+E/ThermalDaemon( 1000): CPU[2] offline
+D/StatusBar.NetworkController(  594): refreshViews: Data not connected!! Set no data type icon
+D/StatusBar.NetworkController(  594): refreshViews connected={ wifi } level=5 combinedSignalIconId=0x7f02023f/com.android.systemui:drawable/stat_sys_wifi_signal_4_fully combinedActivityIconId=0x7f020235 mobileLabel=中国电信 wifiLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX combinedLabel=Tencent-GuestWiFixxxxXXXXxxxxXXXX mAirplaneMode=false mDataActivity=4 mPhoneSignalIconId=0x7f020205 mDataDirectionIconId=0x0 mDataSignalIconId=0x7f020205 mDataTypeIconId=0x0 mNoSimIconId=0x0 mWifiIconId=0x7f02023f mBluetoothTetherIconId=0x1080565
+D/StatusBar.NetworkController(  594): twfx refreshViews mPhoneSignalIconId 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshViews refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx refreshSignalCluster xx 0=2130838021 1=2130838021
+D/StatusBar.NetworkController(  594): twfx isGsm mSignalStrength   isnull? false
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 0=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators strengthIcon 1=com.android.systemui:drawable/stat_sys_signal_5_fully
+I/CTSignalCluster(  594): setMobileDataIndicators visible=true
+I/CTSignalCluster(  594): setMobileDataIndicators simServiceState=0 home 46003  46003  EvDo-rev.A CSS not supported 2 13844 mDataState=0 RoamInd=1 DefRoamInd=1 EmergOnly=false
+I/CTSignalCluster(  594): setMobileDataIndicators isRoam=false
+I/CTSignalCluster(  594): setMobileDataIndicators dataConnect=false
+I/CTSignalCluster(  594): setMobileDataIndicators isGsm = false
+I/CTSignalCluster(  594): voice radio technology is0 mIsGsm = false isRoam= false
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): getSub0SignalId 
+I/CTSignalCluster(  594): getSub0SignalId originalId=4f
+I/CTSignalCluster(  594): setMobileDataIndicators mMobileStrengthId[0]=com.android.systemui:drawable/stat_sys_signal_5_1x mMobileStrengthId[1]=2130838013
+I/CTSignalCluster(  594): getAcitivyTypeIconId type=2 inout=0
+I/CTSignalCluster(  594): SetMobileDataIndicators MNoSimIconVisiable false
+D/StatusBar.NetworkController(  594): changing data overlay icon id to 2130838069
+D/StatusBar.NetworkController(  594): updateCarrierText() NetworkControllorREADY
+D/StatusBar.NetworkController(  594): refreshViews: CarrierLabel=中国电信
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+D/CTSignalCluster(  594): wifi: VISIBLE sig=2130838079 act=2130838069
+E/SQLiteLog( 6774): (5) statement aborts at 1: [PRAGMA journal_mode=TRUNCATE;] 
+I/ActivityThread( 6774): Pub downloads: com.android.providers.downloads.DownloadProvider
+W/dalvikvm( 6774): Refusing to reopen boot DEX '/system/framework/com.qrd.plugin.feature_query.jar'
+I/DownloadManager( 6774): in removeSpuriousFiles
+E/StorageManager( 6774): -------- getMethodList ------isPhoneStorageSupported
+E/StorageManager( 6774): -------- getMethodList ------getPhoneStorageDirectory
+E/StorageManager( 6774): ---------INTERNAL_STORAGE_DIR ---------/storage/sdcard1
+I/ActivityThread( 6774): Pub drm: com.android.providers.drm.DrmProvider
+D/ActivityThread( 6774): Loading provider downloads: com.android.providers.downloads.DownloadProvider
+E/SQLiteLog( 6774): (5) statement aborts at 1: [PRAGMA journal_mode=TRUNCATE;] 
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  41*C (41984)
+E/WVMExtractor(  158): Failed to open libwvm.so
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 5 
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 1 
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 1 
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 1 
+E/MM_OSAL (  158): ValidateAACFile failed
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 1 
+W/QComExtractorFactory(  158): Didn't match the sniff <=== status = 1 
+E/MediaPlayer( 6661): setAudioStream called in state 8
+E/MediaPlayer( 6661): error (-38, 0)
+I/BusOnlineAppService( 6661): BusOnlineAppService onStartCommand startId 19
+I/ActivityManager(  479): Start proc com.coomix.app.bus:remote for service com.coomix.app.bus/com.baidu.location.f: pid=6808 uid=10083 gids={3003, 1015, 1023, 1028}
+I/NET     ( 6661): not connectedfalse
+E/MediaPlayer( 6661): Error (-38,0)
+E/Trace   ( 6808): error opening trace file: No such file or directory (2)
+D/AppCommonMemCache( 6808): commonmemcache addr: 1378645636
+D/auth info( 6808): mcode: BE:AC:53:FE:90:EF:A3:33:71:C3:DB:E1:45:F8:7F:48:F8:E8:43:97;com.coomix.app.bus
+D/dalvikvm( 6808): GC_CONCURRENT freed 213K, 6% free 8070K/8519K, paused 1ms+3ms, total 26ms
+D/TAG     ( 6808): getInstance.
+D/TAG     ( 6808): getInstance.
+D/JPush   ( 6808): [JPushInterface] action:init, The sdk version is 1.5.5
+D/JPush   ( 6661): [PushService] Already Logged In
+D/baidu_location_service( 6808): baidu location service start1 ...6808
+D/dalvikvm( 6808): GC_CONCURRENT freed 387K, 7% free 8252K/8839K, paused 12ms+22ms, total 68ms
+D/dalvikvm( 6808): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/baidu_location_client( 6661): baidu location connected ...
+I/LocationManagerService(  479): request passive (pid 6808) 1000 0
+D/dalvikvm(  479): GC_CONCURRENT freed 2697K, 38% free 16485K/26503K, paused 5ms+16ms, total 128ms
+D/dalvikvm(31990): GC_CONCURRENT freed 2262K, 35% free 16597K/25479K, paused 12ms+17ms, total 85ms
+D/dalvikvm(31990): WAIT_FOR_CONCURRENT_GC blocked 22ms
+I/Launcher.Utilities(31990): svc:com.hisense.autumn.AutumnWallpaper
+D/CapturePreview(31990): captureScenePreview get wpLayerId = 21015, sbLayerId = 151000
+D/CapturePreview(31990): get statusBarHeight 38.0
+I/ActivityManager(  479): Process android.process.media (pid 6774) has died.
+E/ThermalDaemon( 1000): Sensor 'MSM_THERM' -  42*C (43008)
+E/ThermalDaemon( 1000): CPU[2] offline
+D/PowerManager(  479): GpsLocationProvider [acquire]
+D/GpsLocationProvider(  479): Gps MessageHandler. msg.what 8 msg.arg1:10083 msg.arg2: 0
+W/GpsLocationProvider(  479): Duplicate add listener for uid 10083
+D/PowerManager(  479): GpsLocationProvider [release]
+E/LocSvc_eng(  479): I/===> int loc_eng_update_criteria(loc_eng_data_s_type&, UlpLocationCriteria) line 1947 
+E/LocSvc_eng(  479): E/int loc_eng_update_criteria(loc_eng_data_s_type&, UlpLocationCriteria): log_eng state error: instance not initialized
+D/PowerManager(  479): LocationManagerService [acquire]
+D/PowerManager(  479): LocationManagerService [release]
+D/dalvikvm( 6808): GC_FOR_ALLOC freed 175K, 7% free 8276K/8839K, paused 16ms, total 16ms
+D/dalvikvm( 6808): GC_CONCURRENT freed 6K, 8% free 9824K/10567K, paused 7ms+2ms, total 20ms
+D/dalvikvm( 6808): WAIT_FOR_CONCURRENT_GC blocked 15ms
+D/dalvikvm( 6808): GC_FOR_ALLOC freed <1K, 8% free 9823K/10567K, paused 23ms, total 23ms
+D/dalvikvm( 6808): GC_CONCURRENT freed 27K, 8% free 10342K/11143K, paused 2ms+3ms, total 20ms
+I/BusOnlineAppService( 6661): 定位Baidu Map onLocationChanged() provider：161
+I/BusOnlineAppService( 6661): 定位经纬度Baidu Map onLocationChanged() lat：22.553263, lon：113.951643
+D/BusOnlineAppService( 6661): onReceiveLocation 错误码 : 161纬度 : 22.553263经度 : 113.951643半径 : 62.101425地址 : 广东省深圳市南山区科苑路15号

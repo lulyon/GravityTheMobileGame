@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PopLayerText</key>
+	<string>请输入正确的账号和密码！</string>
+  <key>account</key>
+  <array>
+    <string>tencent</string>
+    <string>tencent1</string>
+    <string>tencent2</string>
+  </array>
+  <key>password</key>
+  <array>
+    <string>tencent</string>
+    <string>tencent1</string>
+    <string>tencent2</string>
+  </array>
+</dict>
+</plist>
